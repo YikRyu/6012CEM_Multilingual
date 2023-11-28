@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css?family=Jost');
+
+*{
+    font-family: 'Jost', sans-serif;
+}
+
+.body, html{
+    margin: 0;
+    height: max-content;
+    background-position:center;
+    background-repeat:initial;
+    background-size: cover;
+    background-image: url(../assets/background.png) ;
+}
+
+.h1,h3{
+    text-align: center;
+}
+
+a{
+    color: #A97452;
+}
+
+a:hover{
+    color:#96694d;
+}
+
+p{
+    font-size: 25px;
+}
+
+button{
+    background-color: #A97452;
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    border: 0px;
+    box-shadow: 0 6px 4px 0 rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+button:hover{
+    background-color: #96694d;
+    color: white;
+    border-radius: 10px;
+    font-size: 25px;
+    border: 0px;
+    box-shadow: 0 6px 4px 0 rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.button-container{
+    text-align: center;
+}
+
+.input:focus{
+    border:#A97452;
+}
+
+.page-wrapper{
+    position:relative;
+    height: max-content;
+    width: 100%;
+}
+
+.background-img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 75px;
+    background-color: #FFF8EE;
+    z-index: 2;
+}
+
+.header-title{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7px;
+}
+
+.search-container{
+    position: fixed;
+    height: 50px;
+    width: 250px;
+    top: 5px;
+    right: 15px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #483B30;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.search-input-container{
+    position: absolute;
+    top: 5px;
+    border: none;
+    font-size: 22px;
+    text-align: center;
+    width: 190px;
+    text-align: left;
+}
+
+.search-input-container:focus{
+    outline: none;
+}
+
+.search-icon{
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+}
+
+.search-submit-btn{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.category-container{
+    position: absolute;
+    background-image: linear-gradient(#DFC9AA, transparent);
+    padding: 50px;
+    height: max-content;
+    width: 100%;
+}
+
+.category-title{
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.modal-close-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.mocal-close-icon-container{
+    float: right;
+    width: max-content;
+    height: max-content;
+}
+
+.modal-icon-btn{
+    float: right;
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.modal-icon-btn:hover{
+    float: right;
+    width: max-content;
+    height: max-content;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.modal-close-btn{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+.modal-buttons{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: 10px;
+}
+
+.login-regis-container{
+    position: absolute;
+    top: 150px;
+    left: 40%;
+    height: fit-content;
+    width: fit-content;
+    background-color: #DFC99A;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #483B30;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.login-regis-text{
+    text-align: center;
+    font-size: 18px;
+}
+
+.login-regis-input{
+    height: 60px;
+    width: 300px;
+    border-radius: 10px;
+    border-color: #483B30;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    text-align: center;
+    background-color: #FFF8EE;
+    margin-top: -15px;
+    font-size: 18px;
+}
+
+.refund-policy-container{
+    background-color: white;
+    border-radius: 15px;
+    height: max-content;
+    padding: 30px;
+    margin: auto;
+}
+
+.item-container{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: auto;
+    height: max-content;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+.item-btn-align-container{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+}
+
+.item-btn{
+    height: 70px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.item-btn-icon{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.user-pfp-bigger{
+    object-fit: contain;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+.user-container{
+    position: absolute;
+    top:100px;
+    border-radius: 15px;
+    padding: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+    background-color: white;
+    left: 10%;
+}
+
+.user-info-container{
+    display: flex;
+    width: inherit;
+    height: max-content;
+    justify-content: space-between;
+}
+
+
+/* The container must be positioned relative: */
+.payment-selector {
+    text-align: center;
+    font-size: 18px;
+    width: 300px;
+    padding: 15px;
+    border-color: #483B30;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #FFF8EE;
+    border-radius: 10px;
+}
+
+.book-detail-container{
+    position: absolute;
+    top:100px;
+    border-radius: 15px;
+    padding: 40px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+    background-color: white;
+    left: 10%;
+}
+
+.book-cover{
+    height: 270px;
+    width: 200px;
+    border-radius: 7px;
+}
+
+.book-detail-cover-td{
+    vertical-align: top;
+    padding-left: 100px;
+    width: 20%;
+    text-align: center;
+}
+
+.book-detail-table{
+    width: 80%;
+    text-align: left;
+    margin-bottom: 40px;
+    margin-right: 100px;
+    margin-left: auto;
+    border-collapse: collapse;
+}
+
+.book-detail-title-td{
+    width: 30%;
+}
+
+.book-detail-content-td{
+    width: 70%;
+}
+
+.book-list-container{
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    height: auto;
+}
+
+.book-container{
+    margin-right: 50px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    height: max-content;
+    width: max-content;
+}
+
+.book-title-author{
+    margin-top: -5px;
+    margin-bottom: -5px;
+}
+
+.book-option-btn{
+    background-color: lightgray;
+    height: max-content;
+    width: max-content;
+    margin: 5px;
+    float: right;
+    border-radius: 50%;
+    box-shadow: none;   
+}
+
+.book-option-btn:hover{
+    background-color: lightgray;
+    height: max-content;
+    width: max-content;
+    float: right;
+    border-radius: 50%;
+    box-shadow: none;
+}
+
+.option-icon{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.refund-input{
+    height: 200px;
+    width: 100%;
+    background-color: #FFF8EE;
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.reading-header-quickbtn-container{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    display: flex;
+    align-content: center;
+}
+
+.reading-header-quickbtn-icon{
+    width: 45px;
+    height: 45px;
+}
+
+.reading-header-quickbtn{
+    align-items: center;
+    align-content: center;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.reading-header-quickbtn:hover{
+    background-color: transparent;
+    border-radius: 50%;
+    padding: -5px;
+}
+
+.reading-content-container{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 95%;
+    height: max-content;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reading-content-img-container{
+    padding: 15px;
+    width: max-content;
+    height: max-content;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.reading-content-img{
+    height: 1080px;
+    width: 780px;
+}
+
+.reading-zoom-container{
+    position: fixed;
+    top: 95px;
+    right: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.reading-zoom-btn-icon{
+    width: 70px;
+    height: 70px;
+    margin: 2px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.reading-zoom-btn{
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.reading-zoom-btn:hover{
+    margin-left: 20px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.reading-toc-content-table{
+    width: 800px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.reading-toc-title{
+    text-align: left;
+}
+
+.reading-toc-pg{
+    text-align: right;
+}
+
+.reading-edition-btn{
+    width: 200px;
+    height: 60px;
+    padding: 10px;
+}
+
+.reading-edition-title{
+    text-decoration: underline;
+    text-align: left;
+}
+
+.reading-edition-container{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+

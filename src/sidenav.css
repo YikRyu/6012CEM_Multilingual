@@ -1,0 +1,155 @@
+/* Position and sizing of burger button */
+.normal .bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 30px;
+    left: 20px;
+    top: 20px;
+    box-shadow: none;
+  }
+  
+  /* Color/shape of burger icon bars */
+  .normal .bm-burger-bars {
+    background: #483B30;
+    box-shadow: none;
+  }
+  
+  /* Color/shape of burger icon bars on hover*/
+  .normal .bm-burger-bars-hover {
+    background: #A97452;
+    box-shadow: none;
+  }
+  
+  /* Position and sizing of clickable cross button */
+  .normal .bm-cross-button {
+    position: absolute;
+    left: 250px;
+    height: 24px;
+    width: 24px;
+    box-shadow: none;
+  }
+  
+  /* Color/shape of close button cross */
+  .normal .bm-cross {
+    background: #483B30;
+    box-shadow: none;
+  }
+  
+  /*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+  .normal .bm-menu-wrap {
+    position: relative;
+    height: 100%;
+  }
+  
+  /* General sidebar styles */
+  .normal .bm-menu {
+    background: #EADDCC;
+    font-size: 20px;
+    width: 300px;
+  }
+  
+  /* Morph shape necessary with bubble or elastic */
+  .normal .bm-morph-shape {
+    fill: #373a47;
+  }
+  
+  /* Wrapper for item list */
+  .normal .bm-item-list {
+    color: #b8b7ad;
+    position: fixed;
+    width: 300px;
+    text-align: center;
+    overflow-y:auto;
+  }
+  
+  /* Individual item */
+  .normal .bm-item {  
+    background-color: #FFF8EE;
+    height: 60px;
+    margin-bottom: 20px;
+    width:100%;
+    border-bottom-color: #483B30;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    box-shadow: 0 6px 4px 0 rgba(0,0,0,0.2);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .normal .bm-item-text:hover {
+    color: #A97452;
+    text-decoration: none;
+    transition: color 0.2s;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .normal .bm-item-text{
+    color: #483B30;
+    text-decoration: none;
+    transition: color 0.2s;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  .normal .sidenav-icon{
+    width: 35px;
+    height: 35px;
+    margin-top: 7px;
+  }
+  
+  /* Styling of overlay */
+  .normal .bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+
+  .normal .user-banner{
+    object-fit: fill;
+    height: 200px;
+  }
+
+  .normal .user-banner-container{
+    position: absolute;
+  }
+
+  .normal .user-pfp{
+    object-fit: contain;
+    border-radius: 50%;
+    height: 125px;
+    width: 125px;
+    
+  }
+
+  .normal .user-pfp-container{
+    position: absolute;
+    margin-left: 30%;
+    margin-right: 30%;
+    top: 100px;
+  }
+
+  .normal .user-email {
+    text-decoration: underline;
+    margin: 0 auto;
+    text-align: center;
+    color: #483B30;
+  }
+
+  .normal .user-email-container{
+    position: absolute;
+    margin-left: 18%;
+    margin-right: 18%;
+    top: 225px;
+  }
+
+  .normal .spacing {
+    height: 200px;
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+  }
+  
